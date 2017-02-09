@@ -1,0 +1,21 @@
+<template name="linkSocial">
+  <h3>Link Social</h3>
+  <p>
+    {{#if currentUser.profile.linkedAccounts.twitter}}
+      <span class="h4"><img width=32 height=32 src="{{currentUser.profile.linkedAccounts.twitter.profileImage}}"> {{ currentUser.profile.linkedAccounts.twitter.name }}'s Twitter</span>
+      <a id="unlinkTwitter" href="#">Unlink Twitter</a>
+    {{else}}
+      <a href="#" id="linkTwitter" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> Link with Twitter</a>
+      We'll show your recent tweets on your celebrity page.
+    {{/if}}
+  </p>
+  <p>
+    {{#if currentUser.profile.linkedAccounts.facebook}}
+      <span class="h4"><img width=32 height=32 src="{{currentUser.profile.linkedAccounts.facebook.profileImage}}"> {{ currentUser.profile.linkedAccounts.facebook.name }}'s Facebook</span>
+      <a id="unlinkFacebook" href="#">Unlink Facebook</a>
+    {{else}}
+      <a href="#" id="linkFacebook" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> Link with Facebook</a>
+      We'll link to your Facebook page.
+    {{/if}}
+  </p>
+</template>
