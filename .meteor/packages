@@ -27,9 +27,9 @@ useraccounts:unstyled
 check@1.2.4
 random@1.0.10
 shell-server@0.2.1
-accounts-github
-accounts-google
-accounts-meetup
-accounts-weibo
-accounts-meteor-developer
-accounts-ui
+accounts-github@1.0.11
+accounts-google@1.0.11
+accounts-meetup@1.0.11
+accounts-weibo@1.0.11
+accounts-meteor-developer@1.0.11
+accounts-ui@1.1.9
