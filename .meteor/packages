@@ -20,15 +20,14 @@ ecmascript@0.6.1              # Enable ECMAScript2015+ syntax in app code
 autopublish@1.0.7             # Publish all data to the clients (for prototyping)
 insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
 bozhao:link-accounts
-accounts-twitter@1.1.12
-accounts-facebook@1.0.11
 #service-configuration
 check@1.2.4
 random@1.0.10
 shell-server@0.2.1
-accounts-github@1.0.11
-accounts-google@1.0.11
-accounts-meetup@1.0.11
-accounts-weibo@1.0.11
-accounts-meteor-developer@1.0.11
-accounts-ui@1.1.9
+accounts-facebook
+accounts-github
+accounts-google
+accounts-meetup
+accounts-meteor-developer
+accounts-twitter
+accounts-weibo
